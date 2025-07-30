@@ -1172,6 +1172,7 @@
   padding: var(--contents-space) 0;
   display: flex;
   flex-direction: column;
+  gap: 10px;
   align-items: center;
   background: var(--gray-dark);
   color: var(--white);
@@ -1205,9 +1206,9 @@
   font-weight: 800;
 }
 .step05 .card-group {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .step05 .card-group .card {
   width: 273px;
@@ -1267,6 +1268,10 @@
   position: absolute;
   bottom: 0;
   right: 0;
+}
+.step05 .first-line {
+  display: flex;
+  gap: 10px;
 }
 
 .step06 {
@@ -2001,7 +2006,7 @@
 }
 
 .days-7free_mo {
-  width: 314px;
+  width: 100%;
   height: 63px;
   position: sticky;
   bottom: -5px;
